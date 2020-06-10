@@ -1,0 +1,14 @@
+E:\ProyectosArpa\Funciones\Funciones\Principal\bin\Debug\Principal.exe.config
+E:\ProyectosArpa\Funciones\Funciones\Principal\bin\Debug\Principal.exe
+E:\ProyectosArpa\Funciones\Funciones\Principal\bin\Debug\Principal.pdb
+E:\ProyectosArpa\Funciones\Funciones\Principal\bin\Debug\Validacion.dll
+E:\ProyectosArpa\Funciones\Funciones\Principal\bin\Debug\Validacion.pdb
+E:\ProyectosArpa\Funciones\Funciones\Principal\obj\Debug\Principal.csprojAssemblyReference.cache
+E:\ProyectosArpa\Funciones\Funciones\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+E:\ProyectosArpa\Funciones\Funciones\Principal\obj\Debug\Principal.csproj.CopyComplete
+E:\ProyectosArpa\Funciones\Funciones\Principal\obj\Debug\Principal.exe
+E:\ProyectosArpa\Funciones\Funciones\Principal\obj\Debug\Principal.pdb
+E:\ProyectosArpa\Funciones\Funciones\Principal\bin\Debug\Principal.exe.manifest
+E:\ProyectosArpa\Funciones\Funciones\Principal\bin\Debug\Principal.application
+E:\ProyectosArpa\Funciones\Funciones\Principal\obj\Debug\Principal.exe.manifest
+E:\ProyectosArpa\Funciones\Funciones\Principal\obj\Debug\Principal.application

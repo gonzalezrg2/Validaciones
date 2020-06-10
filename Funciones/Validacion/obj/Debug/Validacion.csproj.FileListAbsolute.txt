@@ -1,0 +1,6 @@
+E:\ProyectosArpa\Funciones\Funciones\Validacion\bin\Debug\Validacion.dll
+E:\ProyectosArpa\Funciones\Funciones\Validacion\bin\Debug\Validacion.pdb
+E:\ProyectosArpa\Funciones\Funciones\Validacion\obj\Debug\Validacion.csproj.CoreCompileInputs.cache
+E:\ProyectosArpa\Funciones\Funciones\Validacion\obj\Debug\Validacion.dll
+E:\ProyectosArpa\Funciones\Funciones\Validacion\obj\Debug\Validacion.pdb
+E:\ProyectosArpa\Funciones\Funciones\Validacion\obj\Debug\Validacion.csprojAssemblyReference.cache
