@@ -69,5 +69,42 @@ namespace Validacion
             
             return salida;
         }
+
+        /// <summary>
+        /// Método para validar CLABE
+        /// </summary>
+        /// <param name="clabe"></param>
+        /// <returns></returns>
+        public static string formatoCLABE(string clabe)
+        {
+            string salida = "", expresion = "^([0-9]{1,4})$";
+
+            if ((Regex.IsMatch(clabe, expresion)))
+            {
+                if (clabe.Length < 4)
+                {
+                    clabe = clabe.PadLeft(4, '0');
+                }
+                salida = clabe;
+            }
+
+            return salida;
+        }
+
+        public static string formatoABA(string aba)
+        {
+            string salida = "", expresion = "^([0-9]{1,9})$";
+
+            if ((Regex.IsMatch(aba, expresion)))
+            {
+                if (aba.Length < 9)
+                {
+                    aba = aba.PadLeft(9, '0');
+                }
+                salida = aba;
+            }
+
+            return salida;
+        }
     }
 }
