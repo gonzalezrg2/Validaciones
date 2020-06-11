@@ -91,6 +91,11 @@ namespace Validacion
             return salida;
         }
 
+        /// <summary>
+        /// Método para validar clave ABA
+        /// </summary>
+        /// <param name="aba"></param>
+        /// <returns></returns>
         public static string formatoABA(string aba)
         {
             string salida = "", expresion = "^([0-9]{1,9})$";
