@@ -23,7 +23,7 @@ namespace Principal
             // salida = Valida.formatoABA("0");
             // salida = Valida.formatoBIC("12345 * 90M");
             // salida = Valida.tipoCuentaOtrosBancos("97");
-            salida = Valida.numeroCuentaOtrosBancos("ABCDE1234567890123", 'I');
+            salida = Valida.numeroCuentaOtrosBancos("ABCDE1234560123", 'I');
             Console.WriteLine("Salida: " + salida);
             Console.ReadKey();
         }
