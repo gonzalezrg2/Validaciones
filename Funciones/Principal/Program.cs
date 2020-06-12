@@ -20,7 +20,10 @@ namespace Principal
             // salida = Formato.rellenarEspacios("123", 10, '/', 'D');
             // salida = Formato.formatoPerzonalizado("AAbbccDeX", "MINUSCULAS", excepciones);
             // salida = Valida.formatoCLABE("1");
-            salida = Valida.formatoABA("0");
+            // salida = Valida.formatoABA("0");
+            // salida = Valida.formatoBIC("12345 * 90M");
+            // salida = Valida.tipoCuentaOtrosBancos("97");
+            salida = Valida.numeroCuentaOtrosBancos("ABCDE1234567890123", 'I');
             Console.WriteLine("Salida: " + salida);
             Console.ReadKey();
         }

@@ -111,5 +111,59 @@ namespace Validacion
 
             return salida;
         }
+
+        /// <summary>
+        /// Método para validar clave BIC
+        /// </summary>
+        /// <param name="cadena"></param>
+        /// <returns></returns>
+        public static string formatoBIC(string cadena)
+        {
+            string salida = "", expresion = "^[A-Z0-9]{11}$";
+
+            if ((Regex.IsMatch(cadena, expresion)))
+            {
+                salida = cadena;
+            }
+
+            return salida;
+        }
+
+        /// <summary>
+        /// Método para validar clave BIC
+        /// </summary>
+        /// <param name="cadena"></param>
+        /// <returns></returns>
+        public static string tipoCuentaOtrosBancos(string cadena)
+        {
+            string salida = "", expresion = "^(40|90|97)$";
+
+            if ((Regex.IsMatch(cadena, expresion)))
+            {
+                salida = cadena;
+            }
+
+            return salida;
+        }
+
+        public static string numeroCuentaOtrosBancos(string cadena, char tipoCuenta)
+        {
+            string salida = "", expresion = "^[A-Z0-9]{18}$";
+
+            if ((Regex.IsMatch(cadena, expresion)))
+            {
+                if (tipoCuenta == 'N')
+                {
+                    cadena = cadena.PadLeft(35, '0');
+                }
+                else if (tipoCuenta == 'I')
+                {
+                    cadena = cadena.PadRight(35, ' ');
+                }
+                salida = cadena;
+            }
+
+            return salida;
+        }
     }
 }

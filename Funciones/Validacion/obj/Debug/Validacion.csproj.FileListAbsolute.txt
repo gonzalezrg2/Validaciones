@@ -4,3 +4,9 @@ E:\ProyectosArpa\Funciones\Funciones\Validacion\obj\Debug\Validacion.csproj.Core
 E:\ProyectosArpa\Funciones\Funciones\Validacion\obj\Debug\Validacion.dll
 E:\ProyectosArpa\Funciones\Funciones\Validacion\obj\Debug\Validacion.pdb
 E:\ProyectosArpa\Funciones\Funciones\Validacion\obj\Debug\Validacion.csprojAssemblyReference.cache
+C:\Validaciones\Funciones\Validacion\bin\Debug\Validacion.dll
+C:\Validaciones\Funciones\Validacion\bin\Debug\Validacion.pdb
+C:\Validaciones\Funciones\Validacion\obj\Debug\Validacion.csprojAssemblyReference.cache
+C:\Validaciones\Funciones\Validacion\obj\Debug\Validacion.csproj.CoreCompileInputs.cache
+C:\Validaciones\Funciones\Validacion\obj\Debug\Validacion.dll
+C:\Validaciones\Funciones\Validacion\obj\Debug\Validacion.pdb
