@@ -130,7 +130,7 @@ namespace Validacion
         }
 
         /// <summary>
-        /// Método para validar clave BIC
+        /// Método para validar tipo de cuenta de otros bancos
         /// </summary>
         /// <param name="cadena"></param>
         /// <returns></returns>
@@ -146,6 +146,12 @@ namespace Validacion
             return salida;
         }
 
+        /// <summary>
+        /// Método para validar numero de cuenta de otros bancos
+        /// </summary>
+        /// <param name="cadena"></param>
+        /// <param name="tipoCuenta"></param>
+        /// <returns></returns>
         public static string numeroCuentaOtrosBancos(string cadena, char tipoCuenta)
         {
             string salida = "", expresion = "^[A-Z0-9]{18}$";

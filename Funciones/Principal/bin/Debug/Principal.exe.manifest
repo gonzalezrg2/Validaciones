@@ -49,19 +49,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>En2wZg4U+dxd+O2j7gAEAK2eqPLlMXPY7mkg798DpAs=</dsig:DigestValue>
+        <dsig:DigestValue>Tdm+PhfrZApUu/b6sb4gHNh0nQqk0POP07ediY697Fk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Validacion.dll" size="6144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Validacion.dll" size="7680">
       <assemblyIdentity name="Validacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jkhmiiCsOYeHILUVbVAmjOkoGnQK7PgLJVmPSI0cTrM=</dsig:DigestValue>
+        <dsig:DigestValue>+FuKE91fooCWfzRFaTWp52pvlXOrvTUU4Ii+snbv4xc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
