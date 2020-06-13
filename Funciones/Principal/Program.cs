@@ -12,13 +12,13 @@ namespace Principal
         static void Main(string[] args)
         {
             string salida = "Prueba";
-            string[] excepciones = { "X" };
+            string[] excepciones = { "x", "D" };
 
             // salida = Valida.formatoCorreo("ej@gmail.com");
             // salida = Valida.formatoTelefono("0000000001");
             // salida = Valida.formatoRFC("GOG800303149", 'M');
             // salida = Formato.rellenarEspacios("123", 10, '/', 'D');
-            // salida = Formato.formatoPerzonalizado("AAbbccDeX", "MINUSCULAS", excepciones);
+            // salida = Formato.formatoPerzonalizado("xFvDDerDE", "MINUSCULAS", excepciones);
             // salida = Valida.formatoCLABE("1");
             // salida = Valida.formatoABA("0");
             // salida = Valida.formatoBIC("12345 * 90M");
@@ -32,17 +32,19 @@ namespace Principal
             // salida = Formato.pilaFunciones("#formatoABA||1");
             // salida = Formato.pilaFunciones("#formatoBIC||1234567890M");
 
-            salida = Formato.pilaFunciones("#tipoCuentaOtrosBancos||97");
-            Console.WriteLine("Salida: " + salida);
-
-            salida = Formato.pilaFunciones("#numeroCuentaOtrosBancos||123456789012345ABC|N");
-            Console.WriteLine("Salida: " + salida);
-
-            salida = Formato.pilaFunciones("#rellenarEspacios||123|10|/|I");
-            Console.WriteLine("Salida: " + salida);
-
-            //salida = Formato.pilaFunciones("#formatoPerzonalizado||AAbbccDeX|MINUSCULAS|x,ñ");
+            //salida = Formato.pilaFunciones("#tipoCuentaOtrosBancos||97");
             //Console.WriteLine("Salida: " + salida);
+
+            //salida = Formato.pilaFunciones("#numeroCuentaOtrosBancos||123456789012345ABC|N");
+            //Console.WriteLine("Salida: " + salida);
+
+            //salida = Formato.pilaFunciones("#rellenarEspacios||123|10|/|I");
+            //Console.WriteLine("Salida: " + salida);
+
+            salida = Formato.pilaFunciones("#formatoPerzonalizado||AAbbccDeX|MINUSCULAS|x,ñ,c");
+            // Console.WriteLine("Salida: " + salida);
+
+            Console.WriteLine("Salida: " + salida);
 
             Console.ReadKey();
         }

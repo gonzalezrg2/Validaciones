@@ -55,14 +55,12 @@ namespace Validacion
 
             if (valida)
             {
-                //salida = cadena.TrimStart(excepciones);
-                //salida = salida.TrimEnd(excepciones);
+                
                 foreach (string e in excepciones)
                 {
-                    Regex pattern = new Regex(e);
-                    pattern.Replace(cadena, "");
+                    cadena = cadena.Replace(e, "");
                 }
-                Console.WriteLine(cadena);
+                salida = cadena;
                 if (tcase == "MINUSCULAS")
                 {
                     for (int i = 0; i < salida.Length; i++)
@@ -196,15 +194,14 @@ namespace Validacion
                     }
 
                     // Invocamos al método rellenarEspacios
-                    //if (funcion == "formatoPerzonalizado")
-                    //{
-                    //    if (parametros.Length == 3)
-                    //    {
-                    //        char[] arreglo = { };
-                    //        arreglo = parametros[2].Split(',');
-                    //        salida = "test";
-                    //    }
-                    //}
+                    if (funcion == "formatoPerzonalizado")
+                    {
+                        if (parametros.Length == 3)
+                        {
+                            var arreglo = parametros[2].Split(',');
+                            salida = Formato.formatoPerzonalizado(parametros[0],parametros[1], arreglo);
+                        }
+                    }
 
                     Console.WriteLine("Funcion: " + funcion);                    
                 }
